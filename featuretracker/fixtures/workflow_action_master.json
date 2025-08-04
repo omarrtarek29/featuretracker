@@ -1,0 +1,23 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-05 00:31:18.948392",
+  "name": "Complete",
+  "workflow_action_name": "Complete"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-05 00:32:32.758255",
+  "name": "Resume",
+  "workflow_action_name": "Resume"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2025-08-05 00:31:51.690067",
+  "name": "Hold",
+  "workflow_action_name": "Hold"
+ }
+]
