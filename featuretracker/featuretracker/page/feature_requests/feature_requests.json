@@ -1,0 +1,19 @@
+{
+ "content": null,
+ "creation": "2025-08-05 00:05:40.619912",
+ "docstatus": 0,
+ "doctype": "Page",
+ "idx": 0,
+ "modified": "2025-08-05 00:55:30.853679",
+ "modified_by": "Administrator",
+ "module": "Featuretracker",
+ "name": "feature-requests",
+ "owner": "Administrator",
+ "page_name": "feature-requests",
+ "roles": [],
+ "script": null,
+ "standard": "Yes",
+ "style": null,
+ "system_page": 0,
+ "title": "Feature Tracker"
+}

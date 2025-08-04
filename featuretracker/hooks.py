@@ -25,7 +25,7 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-# app_include_css = "/assets/featuretracker/css/featuretracker.css"
+app_include_css = "/assets/featuretracker/css/feature_requests.css"
 # app_include_js = "/assets/featuretracker/js/featuretracker.js"
 
 # include js, css files in header of web template
@@ -83,7 +83,16 @@ app_license = "mit"
 # ------------
 
 # before_install = "featuretracker.install.before_install"
-# after_install = "featuretracker.install.after_install"
+after_install = "featuretracker.install.after_install"
+fixtures = [
+	"Workflow",
+	"Assignment Rule",
+	{
+		"dt": "Workflow State",
+		"filters": [["name", "in", ("Open", "In Progress", "On Hold", "Closed", "Under Review")]],
+	},
+	{"dt": "Workflow Action Master", "filters": [["name", "in", ("Hold", "Resume", "Complete")]]},
+]
 
 # Uninstallation
 # ------------
@@ -241,4 +250,3 @@ app_license = "mit"
 # default_log_clearing_doctypes = {
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
-
