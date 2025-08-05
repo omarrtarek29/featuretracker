@@ -2,6 +2,11 @@
 
 A modern feature request management system built on Frappe Framework. This app provides a beautiful Kanban-style interface for tracking and managing feature requests with workflow integration.
 
+## Quick video summary
+
+https://github.com/user-attachments/assets/70c0744f-a33a-4781-99c0-6ce1308f00fd
+
+
 ## Features
 
 ### 🎯 **Feature Request Management**
@@ -9,6 +14,8 @@ A modern feature request management system built on Frappe Framework. This app p
 - **Priority levels** (High, Medium, Low) with color-coded indicators
 - **Detailed descriptions** and date tracking
 - **Workflow integration** with 6 different states
+- **Automatic Assignment** using load balance algorithm
+- **System Push Notification** on closing the features
 
 ### 🎨 **Beautiful Dark Theme UI**
 - **Modern Kanban board** with 3x2 grid layout
@@ -141,15 +148,6 @@ This app can use GitHub Actions for CI. The following workflows are configured:
 ## License
 
 MIT License - see LICENSE file for details.
-
-## Screenshots
-
-The app features a beautiful dark-themed interface with:
-- Modern Kanban board layout
-- Professional modal dialogs
-- Smooth animations and transitions
-- Responsive design for all devices
-- Workflow integration with dynamic action buttons
 
 ---
 
